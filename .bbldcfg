@@ -1,0 +1,11 @@
+# это пример конфига для BoxBuild
+# при наличии out а не out_js или out_scss, в папке out будут созданы папки styles|js в зависимости от конфига
+# чтоб сбилдить js|scss без второго нужно: ts|scss, out_js|out_scss
+# чтоб сбилдить все нужно: ts,scss, out|(out_js & out_scss)
+# значек комментария - "#"
+
+scss:scss/
+ts:ts/
+#out_js:build/jss/
+#out_scss:build/scss/
+out:build/
